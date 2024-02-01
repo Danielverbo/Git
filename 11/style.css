@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imagenes/cuanto_mide_un_campo_de_futbol_34969_orig.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: center;
+}
+.img1{
+    position: fixed;
+    animation: 10s aparecer ;
+    top: 28.5vw;
+    left: 1vw;
+    transform: scale(0.5);
+}
+.img2{
+    position: fixed;
+    animation: 15s desaparecer, 10s 15s aparecer ;
+    top: 8vw;
+    left: 15vw;
+    transform: scale(0.5);    
+}
+.img3{
+    position: fixed;
+    animation: 20s desaparecer, 10s 20s aparecer ;
+    top: 47vw;
+    left: 15vw;
+    transform: scale(0.5);    
+}
+
+.img4{
+    position: fixed;
+    animation: 25s desaparecer, 10s 25s aparecer;
+    top: 8vw;
+    left: 35vw;
+    transform: scale(0.5);    
+}
+.img5{
+    position: fixed;
+    animation: 30s desaparecer, 10s 30s aparecer;
+    top: 30vw;
+    left: 22vw;
+    transform: scale(0.5);
+}
+.img6{
+    position: fixed;
+    animation: 35s desaparecer, 10s 35s aparecer;
+    top: 47vw;
+    left: 35vw;
+    transform: scale(0.5);
+}
+.img7{
+    position: fixed;
+    animation: 40s desaparecer, 10s 40s aparecer;
+    top: 25vw;
+    left: 43vw;
+    transform: scale(0.5);
+}
+.img8{
+    position: fixed;
+    animation: 45s desaparecer, 10s 45s aparecer;
+    top: 27vw;
+    left: 82vw;
+    transform: scale(0.5);
+}
+.img9{
+    position: fixed;
+    animation: 50s desaparecer, 10s 50s aparecer;
+    top: 6vw;
+    left: 78vw;
+    transform: scale(0.5);
+}
+.img10{
+    position: fixed;
+    animation: 55s desaparecer, 10s 55s aparecer;
+    top: 45vw;
+    left: 78vw;
+    transform: scale(0.5);
+}
+
+.img11{
+    position: fixed;
+    animation: 60s desaparecer, 10s 60s aparecer;
+    top: 10vw;
+    left: 50vw;
+    transform: scale(0.5);
+}
+
+.img12{
+    position: fixed;
+    animation: 65s desaparecer, 10s 65s aparecer;
+    top: 45vw;
+    left: 50vw;
+    transform: scale(0.5);
+}
+
+@keyframes aparecer{
+    0%{
+        top: -10vw;
+        left: 47vw;
+    }
+    50%{
+        top: 20vw;
+        left: 47vw;
+        transform: scale(1.25);
+    }
+}
+
+@keyframes desaparecer {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
