@@ -100,11 +100,11 @@ body{
 @keyframes aparecer{
     0%{
         top: -10vw;
-        left: 47vw;
+        left: 40vw;
     }
     50%{
-        top: 20vw;
-        left: 47vw;
+        top: 30vw;
+        left: 40vw;
         transform: scale(1.25);
     }
 }
